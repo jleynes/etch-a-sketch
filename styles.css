@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: monospace;
+  background-color: LightGrey;
+}
+
+.title-div {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.body-div {
+  display: grid;
+  grid-template-columns: 10% 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-div {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(var(--grid-rows), 1fr);
+  grid-template-rows: repeat(var(--grid-cols), 1fr);
+  border: 1px solid black;
+  height: 650px;
+  width: 650px;
+}
+
+/* Class for the sketch grid */
+.grid-item {
+  border: 1px solid Black;
+}
